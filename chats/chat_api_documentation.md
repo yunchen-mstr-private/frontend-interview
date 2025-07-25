@@ -1,8 +1,5 @@
 # 📘 Chat API Documentation
 
-**Base URL:** `https://api.example.com/v1`  
-**Format:** All endpoints return JSON and require `Content-Type: application/json`.
-
 ---
 
 ## 🔹 `GET /chats`
@@ -117,7 +114,7 @@
 
 ---
 
-## 🔹 `POST /chats/{id}/messages` *(optional)*
+## 🔹 `POST /chats/{id}/messages`
 
 **Description:** Add a message to a chat (useful for testing or mock behavior).
 

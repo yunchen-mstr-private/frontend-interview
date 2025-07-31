@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chat-api-config
+  namespace: chat-api
+data:
+  NODE_ENV: "production"
+  PORT: "3000" 
